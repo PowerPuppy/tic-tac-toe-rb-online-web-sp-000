@@ -38,20 +38,32 @@ def position_taken?(board,index)
 end
 
 def valid_move?(board,index)
+<<<<<<< HEAD
   if  index<8 && index>=0 && !position_taken?(board,index)
     return true
   else
     return false
+=======
+  index<8 && index>=0 && !position_taken?(board,index)
+>>>>>>> b7d86bdd6e70ab0051f3a5fdc879e8b139b8072f
   end
 end
 
 def turn(board)
+<<<<<<< HEAD
   puts 'Please enter 1-9:'
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index)
     move(board, index, current_player(board))
     display_board(board)
+=======
+  puts "Please enter 1-9:"
+  input = gets.strip
+  input = input_to_index(input)
+  if valid_move?(board, input)
+    move(board,input,char='X')
+>>>>>>> b7d86bdd6e70ab0051f3a5fdc879e8b139b8072f
   else
     turn(board)
   end

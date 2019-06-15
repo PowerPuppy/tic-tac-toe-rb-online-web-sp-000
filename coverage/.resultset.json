@@ -2,6 +2,7 @@
   "RSpec": {
     "coverage": {
       "/home/puckish-archiver-0896/tic-tac-toe-rb-online-web-sp-000/lib/tic_tac_toe.rb": [
+<<<<<<< HEAD
         null,
         1,
         null,
@@ -140,5 +141,11 @@
       ]
     },
     "timestamp": 1560494287
+=======
+
+      ]
+    },
+    "timestamp": 1560493419
+>>>>>>> b7d86bdd6e70ab0051f3a5fdc879e8b139b8072f
   }
 }
